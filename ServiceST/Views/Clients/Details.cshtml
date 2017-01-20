@@ -1,0 +1,88 @@
+﻿@model ServiceST.DAL.Entities.Client
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2></h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <h3>Client</h3>
+        <dt>
+            @Html.DisplayNameFor(model => model.first_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.first_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.last_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.last_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.birthday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.birthday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <hr/>
+
+        @foreach (var elem in ViewBag.Cars)
+        {
+            <h3>Car</h3>
+            <dt>Make</dt>
+            
+            <dd>@elem.make</dd>
+
+            <dt>Model</dt>
+
+            <dd>@elem.model</dd>
+            
+            <dt>Year</dt>
+
+            <dd>@elem.year</dd>
+
+            <dt>VIN</dt>
+
+            <dd>@elem.vin</dd>
+        }
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) 
+    &nbsp
+    @Html.ActionLink("Back to List", "Index")
+</p>

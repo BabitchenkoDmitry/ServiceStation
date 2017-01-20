@@ -1,0 +1,12 @@
+E:\VS 2013 Projects\ServiceStation\ServiceST\ServiceST.DAL\bin\Debug\ServiceST.DAL.dll.config
+E:\VS 2013 Projects\ServiceStation\ServiceST\ServiceST.DAL\bin\Debug\ServiceST.DAL.dll
+E:\VS 2013 Projects\ServiceStation\ServiceST\ServiceST.DAL\bin\Debug\ServiceST.DAL.pdb
+E:\VS 2013 Projects\ServiceStation\ServiceST\ServiceST.DAL\bin\Debug\EntityFramework.dll
+E:\VS 2013 Projects\ServiceStation\ServiceST\ServiceST.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\VS 2013 Projects\ServiceStation\ServiceST\ServiceST.DAL\bin\Debug\EntityFramework.xml
+E:\VS 2013 Projects\ServiceStation\ServiceST\ServiceST.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\VS 2013 Projects\ServiceStation\ServiceST\ServiceST.DAL\bin\Debug\ru\EntityFramework.resources.dll
+E:\VS 2013 Projects\ServiceStation\ServiceST\ServiceST.DAL\obj\Debug\ServiceST.DAL.csprojResolveAssemblyReference.cache
+E:\VS 2013 Projects\ServiceStation\ServiceST\ServiceST.DAL\obj\Debug\ServiceST.DAL.dll
+E:\VS 2013 Projects\ServiceStation\ServiceST\ServiceST.DAL\obj\Debug\ServiceST.DAL.pdb
+E:\VS 2013 Projects\ServiceStation\ServiceST\ServiceST.DAL\bin\Debug\ru\EntityFramework.SqlServer.resources.dll

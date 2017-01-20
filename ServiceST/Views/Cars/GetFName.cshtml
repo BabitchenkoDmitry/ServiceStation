@@ -1,0 +1,9 @@
+﻿@model IEnumerable<ServiceST.DAL.Entities.Client>
+
+<select id="fname" name="fname" class="form-control">
+    <option disabled="" selected>Choose a name</option>
+    @foreach (var item in Model)
+    {
+        <option value="@item.id">@item.first_name</option>
+    }
+</select>
